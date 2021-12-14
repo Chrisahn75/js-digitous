@@ -74,9 +74,8 @@ let random = 1 + Math.floor(6 * Math.random());
 if (random >= 6){
     console.log("Yes ! I win !");
 } else{
-    console.log("So close");
+    console.log("So close ...");
 }
 
 // Bonus ||
 let month = "January";
-
