@@ -78,3 +78,5 @@ if (random >= 6){
 }
 
 // Bonus ||
+let month = "January";
+
