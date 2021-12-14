@@ -59,10 +59,22 @@ let limite = 89;
 let scores = 87;
 let passworde = "azerty";
 
-if (passworde.length < scores){
+if (passworde.length > scores && passworde === scores){
     console.log("Everything is good");
 } if (passworde.length <= scores){
     console.log("Something is good");
 } if (passworde.length === scores){
     console.log("Nothing is good");
 }
+
+
+// Bonus 
+let random = 1 + Math.floor(6 * Math.random());
+
+if (random >= 6){
+    console.log("Yes ! I win !");
+} else{
+    console.log("So close");
+}
+
+// Bonus ||
