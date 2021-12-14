@@ -55,4 +55,3 @@ console.log(template);
 var changed = "Bonjour";
 changed = changed.replaceAll("o","a",);
 console.log(changed);
-

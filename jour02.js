@@ -42,9 +42,27 @@ let limit = 89;
 let score = 64;
 
 if (score >= limit){
-    console.log("Ok good !")
+    console.log("Ok good !");
 } else {
-    console.log("Oh nooo ...")
+    console.log("Oh nooo ...");
 }
 
-// 07 Condition
+// 07 Condition ||
+let password = "azerty";
+
+if (password.length > 5){
+    console.log("The password is secure");
+}
+
+// 08 Condition |||
+let limite = 89;
+let scores = 87;
+let passworde = "azerty";
+
+if (passworde.length < scores){
+    console.log("Everything is good");
+} if (passworde.length <= scores){
+    console.log("Something is good");
+} if (passworde.length === scores){
+    console.log("Nothing is good");
+}
