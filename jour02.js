@@ -1,17 +1,17 @@
 // 01 Number
-let integer = 102;
-let float = 13.9;
+const integer = 102;
+const float = 13.9;
 console.log(integer,float);
 
 // 02 Convert
-let basic = 34;
-let stringfield = basic;
+const basic = 34;
+const stringfield = basic.toString();
 
 console.log(stringfield);
 
 // 03 Round 
-let num = 1.5;
-let rounded = Math.round(num);
+const num = 1.5;
+const rounded = Math.round(num);
 
 console.log(rounded);
 
@@ -38,7 +38,7 @@ console.log(teste !== biss);
 console.log(teste === biss);
 
 // 06 Condition
-let limit = 89;
+let limit = 50;
 let score = 64;
 
 if (score >= limit){
@@ -55,15 +55,11 @@ if (password.length > 5){
 }
 
 // 08 Condition |||
-let limite = 89;
-let scores = 87;
-let passworde = "azerty";
-
-if (passworde.length > scores && passworde === scores){
+if (limit >= score && password.length > 5){
     console.log("Everything is good");
-} if (passworde.length <= scores){
+} else if (limit >= score || password.length > 5){
     console.log("Something is good");
-} if (passworde.length === scores){
+} else {
     console.log("Nothing is good");
 }
 
@@ -71,11 +67,62 @@ if (passworde.length > scores && passworde === scores){
 // Bonus 
 let random = 1 + Math.floor(6 * Math.random());
 
-if (random >= 6){
+if (random === 6){
     console.log("Yes ! I win !");
 } else{
     console.log("So close ...");
 }
 
 // Bonus ||
-let month = "January";
+const month = "January";
+
+switch (month) {
+    case "Janurary":
+        console.log("Winter");
+        break;
+    case "February":
+            console.log("Winter");
+        break;
+    case "March":
+        console.log("Spring");
+        break;
+    case "April":
+            console.log("Spring");
+        break;
+    case "May":
+        console.log("Spring");
+        break;
+    case "June":
+            console.log("Summer");
+        break;
+            
+    case "July":
+        console.log("Summer");
+        break;
+    case "August":
+            console.log("Summer");
+        break;
+    case "September":
+        console.log("Summer");
+        break;
+    case "October":
+            console.log("Fall");
+        break;
+                
+    case "November":
+        console.log("Fall");
+        break;
+    case "December":
+            console.log("Winter");
+        break;
+}
+
+// Bonus 3 
+
+const roundedNumber = 3.6;
+
+if (roundedNumber - Math.floor(roundedNumber) >= 0.5) {
+    console.log(Math.ceil(roundedNumber));
+} else {
+    console.log(Math.floor(roundedNumber));
+}
