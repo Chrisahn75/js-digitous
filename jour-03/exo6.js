@@ -2,7 +2,7 @@
 
 let sentence = ["Hello Konexio !"];
  
-for(let i = sentence - 1; i >= sentence.length; i--){
-    console.log(sentence);
+for (let i = sentence.length - 1; i >= 0; i--) {
+        console.log(sentence[i]);
 }
 
