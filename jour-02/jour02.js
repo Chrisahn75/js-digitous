@@ -126,3 +126,5 @@ if (roundedNumber - Math.floor(roundedNumber) >= 0.5) {
 } else {
     console.log(Math.floor(roundedNumber));
 }
+
+
