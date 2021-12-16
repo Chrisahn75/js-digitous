@@ -1,3 +1,4 @@
+// Object
 let cat = {
     name : "Garfield",
     age : 3,
