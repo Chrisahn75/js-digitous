@@ -1,4 +1,4 @@
 // Bonus 2
 
-function launchDice(numberofDice)
+function launchDice(numberofDice){
 }

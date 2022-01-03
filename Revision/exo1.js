@@ -19,7 +19,7 @@ function sortLetters(s) {
             let start = i;
             while (s[i] === ">") i++;
             for (let j = i; j >= start; j--) {
-                res += letters[j]; // descending series of letters
+                res += letters[j];
             }
         }
     }
