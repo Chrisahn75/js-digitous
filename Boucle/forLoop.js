@@ -2,7 +2,6 @@
 
 
 // 2 
-
 var result = userLength * basePrice;
 if (result % patternLength) {
     var remainder =  result % patternLength;
