@@ -29,9 +29,11 @@ console.log(dice);
 
 let usainBolt =  0;
 let tysonGay = 0;
+let res = "";
 
+while (usainBolt && tysonGay <= 100){
+    return Math.floor(Math.random() * (usainBolt - tysonGay + 1)) + tysonGay;
+}
 
-
-
-
+console.log(usainBolt);
 

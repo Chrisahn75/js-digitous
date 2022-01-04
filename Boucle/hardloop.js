@@ -1,4 +1,13 @@
+// 1
+let numbers = [];
 
+for (let i = 50, l = 100; i < l; i++) {
+    numbers.push(Math.round(Math.random() * l))
+}
+console.log(numbers);
+
+
+// 4
 const tab = ["hello", "goodbye", "yes", "no", "stop", "go go go"];
 
 function splitWordsAddInTab(words) {
@@ -28,3 +37,4 @@ function splitWordsAddInTab(words) {
 }
 
 console.log(splitWordsAddInTab(tab));
+
