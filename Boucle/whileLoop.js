@@ -1,18 +1,29 @@
 // 1
-var nombre = 50; 
-var max = 200;   
-var result = ""; 
-while( nombre < max){
-  result = result + nombre +"-"
-  nombre = nombre + 2;
+let n = 50; 
+let max = 200;   
+let result = ""; 
+while( n < max){
+  result = result + n + "-"
+  n = n + 2;
 }
-result = result + nombre;
+result = result + n;
 console.log(result);
 
 // 2 
 
 let dice = null;
 let count = 0;
+let res = "";
+
+while (dice > count){
+    if (dice -= 6){
+        count = Math.random();
+    } else {
+        count = res + 1;
+    }
+}
+
+console.log(res);
 
 
 
