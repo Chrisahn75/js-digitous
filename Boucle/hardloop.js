@@ -1,10 +1,17 @@
 // 1
 let numbers = [];
 
-for (let i = 50, l = 100; i < l; i++) {
+for (let i = 50, l = 100; i < l ; i++) {
     numbers.push(Math.round(Math.random() * l))
 }
 console.log(numbers);
+
+// 2
+let n = [];
+for (let i = 50, l = 200; i < l; i++) {
+    n.push(Math.round(Math.random() * l))
+}
+console.log(n);
 
 
 // 4
