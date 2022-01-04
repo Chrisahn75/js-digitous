@@ -2,14 +2,11 @@
 
 
 // 2 
-var result = userLength * basePrice;
-if (result % patternLength) {
-    var remainder =  result % patternLength;
-    if (remainder >= patternLength / 2)
-        result += patternLength - remainder;
-    else
-        result -= remainder;
 
+let result = 0;
+for (let i = 100; i <= 1000; i++) {
+    if (i % 7 === 0) {
+        result++;  
+    }
 }
-
-result = Math.round(result * 100) / 100;
+console.log(result);
