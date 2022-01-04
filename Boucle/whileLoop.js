@@ -13,17 +13,24 @@ console.log(result);
 
 let dice = null;
 let count = 0;
-let res = "";
 
 while (dice > count){
-    if (dice -= 6){
-        count = Math.random();
+    if (dice <= 6){
+        dice = Math.floor(Math.random()*6)+1;
     } else {
-        count = res + 1;
+        count = count + 1;
     }
+    return dice
 }
 
-console.log(res);
+console.log(dice);
+
+// 3 
+
+let usainBolt =  0;
+let tysonGay = 0;
+
+
 
 
 
