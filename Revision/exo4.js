@@ -1,3 +1,4 @@
+// 4
 let message = "Hello World";
 let newMessage = "";
 let isLowerCaseLetter = (letter) => 'a' <= letter && letter <= 'z';
