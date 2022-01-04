@@ -1,5 +1,5 @@
 // 2 XOXO
 
-function countEach(){
-    
+function countEach(x,o){
+
 }

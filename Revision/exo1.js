@@ -4,5 +4,4 @@ let sortLetters = function (text) {
 }
 console.log(sortLetters("konexio"));
 
-// 2 XOXO
 
