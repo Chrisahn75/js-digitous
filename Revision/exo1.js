@@ -26,4 +26,4 @@ function sortLetters(s) {
     return res;
 }
 
-console.log(letters);
+console.log(s);
