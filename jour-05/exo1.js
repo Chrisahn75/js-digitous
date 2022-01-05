@@ -1,8 +1,7 @@
 // 1 
 
 function calculate (n1,operator,n2){
-    
-    if(operator === "+"){
+    if (operator === "+"){
         return console.log(n1 + n2);
     } else if (operator === "-"){
         return console.log(n1 - n2);
