@@ -1,17 +1,14 @@
 // 3 Palindrome
 
 function checkPal(str) {
+    let reversedStr = str.split("").reverse().join("");
 
-    var len = str.length;
-    var mid = Math.floor(len/2);
-
-    for ( var i = 0; i < mid; i++ ) {
-        if (str[i] !== str[len - 1 - i]) {
-            return false;
-        }
+    if (reversedStr === str){
+        return "palindrome!";
+    } else{
+        return "Nope";
     }
-
-    return true;
 }
 
-console.log();
+console.log(checkPal("racecar"));
+console.log(checkPal("laptop"));
