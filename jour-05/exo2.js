@@ -1,5 +1,4 @@
 // 2 
-
 function multiply (n){
     for(let i = 1; i <= 10; ++i){
         let res = n * i;
