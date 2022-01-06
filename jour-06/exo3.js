@@ -12,7 +12,7 @@ const id = {
         required: true
       },
       password: {
-        pattern: /(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/,
+        pattern: /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{6,}$/,
         hidden: true,
         required: true
 
