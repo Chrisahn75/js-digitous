@@ -26,7 +26,7 @@ const id = {
 
 
 function checkProfil(){
-    prompt.get(id,function (err, result) {
+    prompt.get(id,function (_, result) {
         console.log('Command-line input received:');
         console.log('  username: ' + result.username);
         console.log('  password: ' + result.password);
