@@ -1,6 +1,6 @@
 // 2
 
-function getAge (birthDateString){
+function calculateAge (birthDateString){
     const today = new Date();
     const birthDate = new Date(birthDateString);
   
@@ -14,4 +14,4 @@ function getAge (birthDateString){
     return yearsDifference;
 }
   
-  console.log(getAge('1993-01-01'));
+  console.log(calculateAge('1993-01-01'));
