@@ -4,27 +4,29 @@ const prompt = require("prompt");
 
 prompt.start ();
 
-prompt.get([{
-    name: 'username',
-    required: true
-  }, {
-    name: 'password',
-    hidden: true,
-    conform: function (value) {
-      return true;
-    },
-    name: 'email',
-    pattern: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g,
-    hidden: true,
-    conform: function (value) {
-        return true;
-    },
-  }]
-);
+const id = {
+    properties: {
+      username: {
+        pattern: /^[a-zA-Z\s\-]+$/,
+        message: 'Name must be only letters, spaces, or dashes',
+        required: true
+      },
+      password: {
+        pattern: /(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/,
+        hidden: true,
+        required: true
+
+      },
+      email: {
+        pattern: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/,
+        required: true
+      }
+    }
+  };
+
 
 function checkProfil(){
-    prompt.get(['username','password', 'email'], function (err, result) {
-    
+    prompt.get(id,function (err, result) {
         console.log('Command-line input received:');
         console.log('  username: ' + result.username);
         console.log('  password: ' + result.password);
