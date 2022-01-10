@@ -36,7 +36,7 @@ let sold = cakes.filter(function (chocolat) {
 
 const statut = sold.map((change) => ({
     ... change,
-    status: cakes.status = "sold out !",
+    status : cakes.status = "sold out !",
 }));
 
 console.log(statut);
