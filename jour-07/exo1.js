@@ -1,5 +1,5 @@
 // 1
-var fs = require("fs");
+let fs = require("fs");
 
 fs.readFile("jour07.txt", function (err, data) {
     if (err) {
