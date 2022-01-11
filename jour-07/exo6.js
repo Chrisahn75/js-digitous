@@ -29,14 +29,14 @@ let cakes =
 ]
 
 
-let sold = cakes.filter(function (chocolat) {
+const sold = cakes.filter(function (chocolat) {
     return chocolat.flavor === "chocolate";
 });
 
 
 const statut = sold.map((change) => ({
-    ... change,
-    status : cakes.status = "sold out !",
+     ... change,
+     status : cakes.status = "sold out !",
 }));
 
 console.log(statut);

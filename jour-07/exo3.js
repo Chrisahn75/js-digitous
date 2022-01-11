@@ -1,5 +1,5 @@
 // 3
-let longNames = [
+const longNames = [
 	{
 		firstName: "Jane",
 		lastName: "Doe"
@@ -10,7 +10,9 @@ let longNames = [
 	}
 ];
 
-let shortNames = longNames.map(function(longNames){
-	return `${"name"} : ${longNames.firstName} ${longNames.lastName}`;
+const shortNames = longNames.map(function(longName){
+	return {
+		name :`${longName.firstName} ${longName.lastName}`,
+	};
 });
 console.log(shortNames);
