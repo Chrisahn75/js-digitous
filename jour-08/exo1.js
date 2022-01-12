@@ -4,7 +4,7 @@ let countriesNames = [];
 
 function getCountries(){
     axios.get("https://restcountries.com/v3.1/all").then((res) => {
-        countriesNames = res.data.map(function(pays){
+        countriesNames = res.data.map((pays) => {
              return pays.name.common;
         
          });
