@@ -5,10 +5,10 @@ let countriesNames = [];
 function getCountries(){
     axios.get("https://restcountries.com/v3.1/all").then((res) => {
         countriesNames = res.data.map((country) => {
-             return country.name.common;
+             return country;
         
          });
-         console.log(countriesNames.join(" - "));
+         console.log(countriesNames);
 
     });
 }

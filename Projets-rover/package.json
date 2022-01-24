@@ -1,0 +1,23 @@
+{
+  "name": "projets-rover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "projet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrisahn75/projet-rover.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chrisahn75/projet-rover/issues"
+  },
+  "homepage": "https://github.com/Chrisahn75/projet-rover#readme",
+  "dependencies": {
+    "prompt": "^1.2.1"
+  }
+}
